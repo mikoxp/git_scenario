@@ -1,0 +1,4 @@
+Cofnąć lokalne repozytorium o jeden commit
+		git reset --hard HEAD~1
+Wykonać force-push do zdalnego repozytorium
+		git push -f origin Sprint/ali

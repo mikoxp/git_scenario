@@ -1,0 +1,5 @@
+error: cannot lock ref
+
+git gc --prune=now
+
+git remote prune origin

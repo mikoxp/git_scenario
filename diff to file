@@ -1,1 +1,2 @@
 $ git diff master working_directory |tee output.diff
+git diff HEAD~1 HEAD~2 | tee -a /o.diff

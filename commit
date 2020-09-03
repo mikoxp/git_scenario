@@ -1,2 +1,2 @@
-git commit --amend --no-edit 
+git commit -a --amend --no-edit
 git push origin --force

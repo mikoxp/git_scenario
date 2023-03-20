@@ -1,0 +1,22 @@
+Rewrite branch 'x'
+branch new base 'y'
+
+git fetch
+git checkout x
+git checkout -b x_kopia
+git branch -D x
+git checkout -D y       -when error is ok
+git checkout y
+git checkout -b x_tmp
+git cherry-pick <hash>
+git cherry-pick <hash>
+.
+.
+.
+git cherry-pick <hash>
+git checkout -b x
+git push origin --force       -- must be force
+
+when is ok
+
+git branch -d x_tmp x_kopy

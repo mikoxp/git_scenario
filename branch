@@ -1,0 +1,3 @@
+remove all branches exclude main
+
+git branch | grep -v "main" | xargs git branch -D
